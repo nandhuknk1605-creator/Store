@@ -1,7 +1,7 @@
 const cars=[
-	"https://images.unsplash.com/photo-1502877338535-766e1452684a",
-	"https://images.unsplash.com/photo-1511919884226-fd3cad34687c",
-	"https://images.unsplash.com/photo-1542362567-b07e54358753"
+	"Images/Panty01.jpg",
+	"Images/Panty01.jpg",
+	"Images/Panty01.jpg"
 ];
 
 function changeCar(index,btn){
@@ -103,3 +103,4 @@ document.addEventListener('DOMContentLoaded', ()=>{
 	if(closeBtn) closeBtn.addEventListener('click', toggleCartPanel);
 	renderCartPanel();
 });
+
